@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STUDION</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,26 +20,26 @@
             </h1>
             <ul class="navbar__links">
                 <li>
-                    <a href="#empresa">Empresa</a>
+                    <a href="enterprise.html">Empresa</a>
                 </li>
                 <li>
-                    <a href="#eventos">Eventos</a>
+                    <a href="events.html">Eventos</a>
                 </li>
                 <li>
-                    <a href="#galeria">Galeria</a>
+                    <a href="galery.html">Galeria</a>
                 </li>
                 <li>
-                    <a href="#depoimentos">Depoimentos</a>
+                    <a href="testimonials.html">Depoimentos</a>
                 </li>
                 <li>
-                    <a href="#contatos">contatos</a>
+                    <a href="contact.html">contatos</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <header>
-        <div id="slider">
+        <div class="slider">
             <div class="slide">
                 <img class="slider_background-image" src="./images/banner.jpg" alt="Studion Banner"/>
                 <div class="slide__copy">
@@ -46,6 +48,28 @@
                         setembro às 19h
                       </h6>
                       <h2><span class="copy--primary">Creative</span> Minds</h2>
+                      <button class="btn btn--slide">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="slide">
+                    <img class="slider_background-image" src="./images/banner3.avif" alt="Studion Banner"/>
+                    <div class="slide__copy">
+                        <h6>
+                            <span class="copy--primary">Próximo evento</span> - Dia 25 de
+                            setembro às 19h
+                          </h6>
+                          <h2><span class="copy--primary">fast</span>foward</h2>
+                          <button class="btn btn--slide">Saiba Mais</button>
+                    </div>
+            </div>
+            <div class="slide">
+                <img class="slider_background-image" src="./images/banner3.avif" alt="Studion Banner"/>
+                <div class="slide__copy">
+                    <h6>
+                        <span class="copy--primary">Próximo evento</span> - Dia 25 de
+                        setembro às 19h
+                      </h6>
+                      <h2><span class="copy--primary">fast</span>foward</h2>
                       <button class="btn btn--slide">Saiba Mais</button>
                 </div>
             </div>
@@ -108,7 +132,7 @@
                 <label for="email">receba news e promoções</label>
                 <div class="footer__email">
                     <input id="email" type="email" placeholder="email" />
-                    <button type="submit"><i class="fa-solid fa-paper-plane fa-2x"></i></button>
+                    <button class="footer__form-button" type="submit"><i class="fa-solid fa-paper-plane fa-2x"></i></button>
                 </div>
             
             </form>
@@ -133,9 +157,16 @@
         </div>
             <hr/>
             <p>
-                <small>Studi<span>on</span> - Todos  os direitos reservados.</small>
+                <small>Studi<span class="copy--primary">on</span> - Todos  os direitos reservados.</small>
             </p>
     </footer>
+    <!-- adicionando bibliotecas para facilitar o java scrpit: slick, jquery, -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
