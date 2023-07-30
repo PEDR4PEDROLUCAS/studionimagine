@@ -8,13 +8,14 @@
 }
 
 body {
-    margin:0;   
+    margin:0;  
+    object-fit: fit; 
 }
 
 header,
 main,
 footer{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 ul {
     display: flex;
