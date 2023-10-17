@@ -24,5 +24,9 @@
   "homepage": "https://github.com/PEDR4PEDROLUCAS/studionimagine#readme",
   "devDependencies": {
     "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^0.5.2",
+    "ngrok": "^5.0.0-beta.2"
   }
 }

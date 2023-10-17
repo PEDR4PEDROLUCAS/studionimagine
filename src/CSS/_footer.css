@@ -5,14 +5,43 @@
 }
 .footer__container{
     display:grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: unset;
+    grid-template-rows: auto;
     align-items: center;
     padding: 5.25rem 0 3.75rem 0 ;
 }
+
+@media screen and (min-width: 1280px){
+    .footer__container{
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: unset;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .footer__container{
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: unset;
+    }
+}
+
 .footer .logo-studion{
-    justify-self:start;
+    justify-self:center;
     margin:0
 }
+
+@media screen and (min-width: 1280px){
+    .footer .logo-studion{
+        justify-self:start;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .footer .logo-studion{
+        justify-self:start;
+    }
+}
+
 .logo-studion_subtitle{
     display:block;
 }
@@ -59,8 +88,21 @@
 
 }
 .footer__social{
-    justify-self: end;
+    justify-self: center;
 }
+
+@media screen and (min-width:1280px){
+    .footer__social{
+        justify-self: end;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .footer__social{
+        justify-self: end;
+    }
+}
+
 .footer__social a,
 .footer__social a:visited,
 .footer__social a:active {

@@ -1,12 +1,24 @@
 *{
     box-sizing: border-box;
 }
-:root {
+:root {  /*aqui no root vamos priorizar o tamanho de fonte para mobile*/
     font-family: 'Montserrat', sans-serif;
     color:var(--color-copy);
-    font-size: 16px;
+    font-size:4.25vw ;
+}
+/* tablet */
+@media screen and (min-width:720px){
+    :root {
+        font-size: 2.25vw;
+    }
 }
 
+/* desktop */
+@media screen and (min-width:1280px){
+    :root {
+        font-size:16px;
+    }
+}
 body {
     margin:0;  
     object-fit: fit; 
