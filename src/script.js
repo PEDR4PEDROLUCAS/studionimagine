@@ -18,8 +18,10 @@ $(document).ready(() => {
         Email.send({
             Host : "smtp.elasticemail.com",
             Username : "pedrotakamashi@gmail.com",
+
             Password : "89031E2C17942E395B319AB9AF96E816232A",
             // nova senha smtp criada, anotei no caderno e whatsapp
+            Password : "",
             To : 'pedrotakamashi@gmail.com',
             From : "pedrotakamashi@gmail.com",
             Subject : "Por favor me adicione a sua news",
